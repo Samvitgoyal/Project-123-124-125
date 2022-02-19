@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-size:cover;
+    }
+    .header{
+        background-color:rgb(84, 13, 216);
+        box-shadow:5px 5px 5px silver; 
+        width:100%;
+    }
+    .copy-right-footer{
+    background-color:rgb(84, 13, 216);
+    color:white;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    line-height:3;
+    text-align:center;
+    }
+    canvas
+      {
+        border:5px solid white;
+        border-radius:20px;
+        animation-name: example;
+        animation-duration: 4s;
+        margin-top: 50px;
+        animation-iteration-count: infinite;
+       
+    }
+    @keyframes example {
+    
+      from {box-shadow: 1px 1px 38px rgb(2, 65, 240);}
+      to {box-shadow: 1px 1px 38px rgb(2, 65, 240);}
+      from {box-shadow: 1px 1px 38px rgb(2, 65, 240);}
+      to {box-shadow: 1px 1px 38px rgb(2, 65, 240);}
+      from {box-shadow: 1px 1px 38px rgb(2, 65, 240);}
+      to {box-shadow: 1px 1px 38px rgb(2, 65, 240);}
+      from {box-shadow: 1px 1px 38px rgb(2, 65, 240);}
+      to {box-shadow: 1px 1px 38px rgb(2, 65, 240);}}
+    
+    
